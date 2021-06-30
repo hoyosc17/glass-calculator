@@ -10,16 +10,15 @@
 <body>
     <div>
         <h1>Calculadora de vidrio</h1>
-        <h2>Ancho del vidrio</h2>
+        <h2>Altura del vidrio</h2>
         <input type="number" placeholder="Unidades en metros" id="alturaVidrio">
-        <h2>Alto del vidrio</h2>
+        <h2>Ancho del vidrio</h2>
         <input type="number" placeholder="Unidades en metros" id="anchoVidrio">
         <h2>Espesor del vidrio</h2>
-        <input type="number" placeholder="Unidades en milímetros" id="espesorVidrio">
+        <input type="number" placeholder="Unidades en milímetros" id="espesorVidrio" class="espesorVidrio2">
         <h2>Resultado</h2>
-        <button onclick="calculo()">Calcular vidrio</button>
-        <p id="pesoFinal">Resultado del peso insertado con JavaScript</p>
-        <p id="areaFinal">Resultado del área insertado con JavaScript</p>
+        <button id="calcular">Calcular vidrio</button>
+        <p>Resultado del peso: <span id="pesoFinal">0</span></p>
     </div>
     <script src="./scripts/main.js"></script>
 </body>
